@@ -11,19 +11,13 @@ jobs:
 
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Generate Snake game from contribution grid
-        uses: Platane/snk@v2.0.1
+        uses: Platane/snk@v3
         with:
           github_user_name: YeetTheAnson
-          svg_out_path: dist/github-contribution-grid-snake.svg
-
-      - name: Upload Snake Game
-        uses: actions/upload-artifact@v2
-        with:
-          name: snake-game
-          path: dist/github-contribution-grid-snake.svg
+          outputs: dist/github-contribution-grid-snake.svg
 
       - name: Commit and push the Snake game
         run: |
