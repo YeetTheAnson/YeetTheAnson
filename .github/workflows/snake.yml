@@ -2,15 +2,19 @@ name: Generate Snake Game
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  # Runs once a day at midnight
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@v2.0.1
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Generate Snake game from contribution grid
+        uses: Platane/snk@v2.0.1
         with:
           github_user_name: YeetTheAnson
           svg_out_path: dist/github-contribution-grid-snake.svg
@@ -20,3 +24,11 @@ jobs:
         with:
           name: snake-game
           path: dist/github-contribution-grid-snake.svg
+
+      - name: Commit and push the Snake game
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
+          git add dist/github-contribution-grid-snake.svg
+          git commit -m "Generate Snake game"
+          git push
