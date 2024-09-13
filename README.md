@@ -35,7 +35,7 @@
 
 <h3 align="left">GitHub Snake Game:</h3>
 <p align="center">
-  <img src="https://github.com/YeetTheAnson/YeetTheAnson/blob/output/github-contribution-grid-snake.svg" alt="Snake Game" />
+  <img src="https://github.com/YeetTheAnson/YeetTheAnson/blob/dist/github-contribution-grid-snake.svg" alt="Snake Game" />
 </p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yeettheanson&show_icons=true&locale=en&layout=compact" alt="yeettheanson" /></p>
