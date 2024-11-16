@@ -9,7 +9,7 @@
 
 - 🌱 I’m currently learning **EDA (Electronic Design Automation)**
 
-- 📫 How to reach me **ansonlai019@gmail.com**
+- 📫 How to reach me **anson@ansonlai.website**
 
 - ⚡ Fun fact **😛**
 
