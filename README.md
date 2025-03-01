@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=yeettheanson" alt="yeettheanson" /></a> </p>
 
-- 🔭 I’m currently working on [NaN](https://github.com/YeetTheAnson/Anson's Keyboard)
+- 🔭 I’m currently working on [NaN](https://github.com/YeetTheAnson/Anson's_Keyboard)
 
 - 🌱 I’m currently learning **EDA (Electronic Design Automation)**
 
